@@ -1,33 +1,29 @@
-set version 23.2R1.15
+delete chassis auto-image-upgrade
+
 set system host-name P1
+
 set system root-authentication encrypted-password "$6$Tb7OdqXe$mtHsiMNUdZI14gWzctrH2o/t1tzudz5aCpYdD7BMZxneKoNmj//3HbkE1OWt6ODtzF1m16zkqK8te5hnr1n9z0"
-set system syslog file interactive-commands interactive-commands any
-set system syslog file messages any notice
-set system syslog file messages authorization info
-set system processes dhcp-service traceoptions file dhcp_logfile
-set system processes dhcp-service traceoptions file size 10m
-set system processes dhcp-service traceoptions level all
-set system processes dhcp-service traceoptions flag packet
+
 set interfaces ge-0/0/1 description "To PE1"
 set interfaces ge-0/0/1 unit 0 family inet address 10.10.20.2/24
 set interfaces ge-0/0/1 unit 0 family iso
 set interfaces ge-0/0/1 unit 0 family mpls
+
 set interfaces ge-0/0/2 description "To PE2"
 set interfaces ge-0/0/2 unit 0 family inet address 10.10.40.1/24
 set interfaces ge-0/0/2 unit 0 family iso
 set interfaces ge-0/0/2 unit 0 family mpls
-set interfaces fxp0 unit 0 family inet dhcp vendor-id Juniper-vmx-VM68E79681C9
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client client-type stateful
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client client-ia-type ia-na
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client client-identifier duid-type duid-ll
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client vendor-id Juniper:vmx:VM68E79681C9
+
+
 set interfaces lo0 unit 0 family inet address 3.3.3.3/32
 set interfaces lo0 unit 0 family iso address 47.0002.0030.0300.3003.00
-set protocols router-advertisement interface fxp0.0 managed-configuration
+
 set protocols isis interface ge-0/0/1.0
 set protocols isis interface ge-0/0/2.0
 set protocols isis interface lo0.0
+
 set protocols ldp interface ge-0/0/1.0
 set protocols ldp interface ge-0/0/2.0
+
 set protocols mpls interface ge-0/0/1.0
 set protocols mpls interface ge-0/0/2.0
