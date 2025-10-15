@@ -1,0 +1,25 @@
+hostname PE1
+interface Loopback0
+ ip address 1.1.1.1 255.255.255.255
+ ip router isis
+
+interface Ethernet0/0
+ description "To CE1"
+ ip address 10.10.10.2 255.255.255.0
+ no shutdown
+interface Ethernet0/1
+ description "To P1"
+ ip address 10.10.20.1 255.255.255.0
+ ip router isis
+ mpls ip
+ no shutdown
+
+router isis
+ net 47.0002.0010.0100.1001.00
+
+router bgp 100
+ bgp log-neighbor-changes
+ neighbor 4.4.4.4 remote-as 100
+ neighbor 4.4.4.4 update-source Loopback0
+ neighbor 4.4.4.4 next-hop-self
+ neighbor 10.10.10.1 remote-as 1

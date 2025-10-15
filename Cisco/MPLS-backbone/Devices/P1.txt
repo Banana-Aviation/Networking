@@ -1,0 +1,23 @@
+hostname P1
+
+interface Loopback0
+ ip address 3.3.3.3 255.255.255.255
+ ip router isis
+ no shutdown
+
+interface Ethernet0/1
+ description "To PE1"
+ ip address 10.10.20.2 255.255.255.0
+ ip router isis
+ mpls ip
+ no shutdown
+
+interface Ethernet0/2
+ description "To PE2"
+ ip address 10.10.40.1 255.255.255.0
+ ip router isis
+ mpls ip
+ no shutdown
+
+router isis
+ net 47.0002.0030.0300.3003.00
