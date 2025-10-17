@@ -1,0 +1,71 @@
+LVM is not required
+To import Junos vRouter qcow2 image:
+https://www.juniper.net/documentation/us/en/software/nce/nce-510-virtual-switches-mist-cloud-managed/eve-ng_bms_environment.html
+# optional - restrict ssh,web access
+iptables -A INPUT -p tcp -dport 22 -s $IP -j ACCEPT
+iptables -A INPUT -p tcp -dport 22 -j REJECT
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A INPUT -p tcp -dport 80 -s $IP -j ACCEPT
+iptables -A INPUT -p tcp -dport 80 -j REJECT
+
+Download images:  https://www.juniper.net/us/en/dm/vjunos-labs.html
+
+scp qcow2 images to eve-ng server 
+
+check integrity with md5sum 
+
+```bash
+# image file name: vJunos-router-23.2R1.15.qcow2
+
+mkdir -p /opt/unetlab/addons/qemu/vjunosrouter-23.2
+cp vJunos-router-23.2R1.15.qcow2 /opt/unetlab/addons/qemu/vjunosrouter-23.2/
+mv /opt/unetlab/addons/qemu/vjunosrouter-23.2/vJunos-router-23.2R1.15.qcow2 /opt/unetlab/addons/qemu/vjunosrouter-23.2/hda.qcow2
+
+# create vm-templates for switch
+
+cat <<EOF >/opt/unetlab/html/templates/intel/vjunosswitch.yml
+---
+type: qemu
+description: Juniper vEX Switch
+name: vEX
+cpulimit: 4
+icon: JunipervQFXpfe.png
+cpu: 4
+ram: 5120
+eth_name:
+- fxp0
+eth_format: ge-0/0/{0-9}
+ethernet: 11
+console: telnet
+shutdown: 0
+qemu_arch: x86_64
+qemu_version: 5.2.0
+qemu_nic: virtio-net-pci
+qemu_options: -machine type=pc,accel=kvm -serial mon:stdio -nographic -smbios type=1,product=VM-VEX -cpu IvyBridge,ibpb=on,md-clear=on,spec-ctrl=on,ssbd=on,vmx=on
+...
+EOF
+cat <<EOF >/opt/unetlab/html/templates/amd/vjunosswitch.yml
+---
+type: qemu
+description: Juniper vEX Switch
+name: vEX
+cpulimit: 4
+icon: JunipervQFXpfe.png
+cpu: 4
+ram: 5120
+eth_name:
+- fxp0
+eth_format: ge-0/0/{0-9}
+ethernet: 11
+console: telnet
+shutdown: 0
+qemu_arch: x86_64
+qemu_version: 5.2.0
+qemu_nic: virtio-net-pci
+qemu_options: -machine type=pc,accel=kvm -serial mon:stdio -nographic -smbios type=1,product=VM-VEX -cpu IvyBridge,ibpb=on,spec-ctrl=on,ssbd=on,virt-ssbd=on,svm=on,erms=off
+...
+EOF
+
+# finally fix permissions
+/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+```
