@@ -1,23 +1,10 @@
-set version 23.2R1.15
-set system host-name CE-BLUE-2
-set system root-authentication encrypted-password "$6$Tb7OdqXe$mtHsiMNUdZI14gWzctrH2o/t1tzudz5aCpYdD7BMZxneKoNmj//3HbkE1OWt6ODtzF1m16zkqK8te5hnr1n9z0"
-set system syslog file interactive-commands interactive-commands any
-set system syslog file messages any notice
-set system syslog file messages authorization info
-set system processes dhcp-service traceoptions file dhcp_logfile
-set system processes dhcp-service traceoptions file size 10m
-set system processes dhcp-service traceoptions level all
-set system processes dhcp-service traceoptions flag packet
-set interfaces ge-0/0/1 description "To PE1"
-set interfaces ge-0/0/1 unit 0 family inet address 10.255.0.6/31
-set interfaces ge-0/0/2 description "To VPC-BLUE-2"
-set interfaces ge-0/0/2 unit 0 family inet address 10.80.0.1/24
-set interfaces ge-0/0/2 unit 0 family inet address 10.10.80.1/24
-set interfaces fxp0 unit 0 family inet dhcp vendor-id Juniper-vmx-VM68F121749E
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client client-type stateful
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client client-ia-type ia-na
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client client-identifier duid-type duid-ll
-set interfaces fxp0 unit 0 family inet6 dhcpv6-client vendor-id Juniper:vmx:VM68F121749E
-set protocols router-advertisement interface fxp0.0 managed-configuration
-set protocols ospf area 0.0.0.0 interface ge-0/0/1.0
+set system root-authentication encrypted-password "$6$K7XuEI9K$gDx.xg4c0zYJqDkCtpdQMb0dYpOvq6sbD0Acf7XjdXa1QE7H8vlqVN10R/NwaHoWDoqOryuLQbeXGdSVj9JXB0"
+
+set interfaces ge-0/0/2 unit 0 description "To PE2"
+set interfaces ge-0/0/2 unit 0 family inet address 10.255.0.2/31
+
+set interfaces ge-0/0/9 unit 0 description "To VPC-BLUE-2"
+set interfaces ge-0/0/9 unit 0 family inet address 10.10.90.1/24
+
+set protocols ospf area 0.0.0.0 interface ge-0/0/9.0 passive
 set protocols ospf area 0.0.0.0 interface ge-0/0/2.0
