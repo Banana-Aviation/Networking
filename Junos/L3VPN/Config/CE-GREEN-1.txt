@@ -1,9 +1,9 @@
 set system root-authentication encrypted-password "$6$K7XuEI9K$gDx.xg4c0zYJqDkCtpdQMb0dYpOvq6sbD0Acf7XjdXa1QE7H8vlqVN10R/NwaHoWDoqOryuLQbeXGdSVj9JXB0"
 
-set interfaces ge-0/0/1 description "To PE1"
+set interfaces ge-0/0/1 unit 0 description "To PE1"
 set interfaces ge-0/0/1 unit 0 family inet address 10.255.0.0/31
 
-set interfaces ge-0/0/9 description "To VPC-GREEN-1"
+set interfaces ge-0/0/9 unit 0 description "To VPC-GREEN-1"
 set interfaces ge-0/0/9 unit 0 family inet address 10.10.80.1/24
 
 set protocols ospf area 0.0.0.0 interface ge-0/0/1.0
