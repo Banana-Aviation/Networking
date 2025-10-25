@@ -1,0 +1,2071 @@
+annotations:
+  - border_color: '#808080FF'
+    border_radius: 0
+    border_style: ''
+    color: '#C6FFCD'
+    rotation: 0
+    thickness: 1
+    type: rectangle
+    x1: -920.0
+    y1: -320.0
+    x2: 520.0
+    y2: 160.0
+    z_index: 1
+  - border_color: '#808080FF'
+    border_radius: 0
+    border_style: ''
+    color: '#C6FFCD'
+    rotation: 0
+    thickness: 1
+    type: rectangle
+    x1: 280.0
+    y1: -320.0
+    x2: 520.0
+    y2: 160.0
+    z_index: 1
+  - border_color: '#808080FF'
+    border_radius: 0
+    border_style: ''
+    color: '#A7E0FC'
+    rotation: 0
+    thickness: 1
+    type: rectangle
+    x1: -920.0
+    y1: -160.0
+    x2: 520.0
+    y2: 160.0
+    z_index: 1
+  - border_color: '#808080FF'
+    border_radius: 0
+    border_style: ''
+    color: '#A7E0FC'
+    rotation: 0
+    thickness: 1
+    type: rectangle
+    x1: 280.0
+    y1: -160.0
+    x2: 520.0
+    y2: 160.0
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: 10.10.80.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -760.0
+    y1: -280.0
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: 10.10.80.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -760.0
+    y1: -120.0
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: 10.10.90.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 520.0
+    y1: -280.0
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: 10.10.90.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 520.0
+    y1: -120.0
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 20
+    text_bold: false
+    text_content: 10.255.0.0/31
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -487.42207450933387
+    y1: -235.98554699985561
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 339
+    text_bold: false
+    text_content: 10.255.0.6/31
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -481.3088737720798
+    y1: -99.96993918485346
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: 10.0.100.0/31
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -240.0
+    y1: -200.0
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: 10.0.100.2/31
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 40.0
+    y1: -200.0
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 341
+    text_bold: false
+    text_content: 10.255.0.4/31
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 240.00000824922827
+    y1: -239.99999716022694
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 20
+    text_bold: false
+    text_content: 10.255.0.2/31
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 237.5779287902312
+    y1: -96.48554793303467
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: lo0=10.0.1.1/32
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -386.68421052631584
+    y1: -317.10526315789474
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: lo0=10.0.1.2/32
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -98.9473684210526
+    y1: -318.94736842105266
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: lo0=10.0.1.3/32
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 120.0
+    y1: -320.0
+    z_index: 2
+  - border_color: '#808080FF'
+    border_style: ''
+    color: '#FFFFFFFF'
+    line_end: arrow
+    line_start: square
+    thickness: 1
+    type: line
+    x1: -320.0
+    y1: -280.0
+    x2: -320.0
+    y2: -200.0
+    z_index: 3
+  - border_color: '#808080FF'
+    border_style: ''
+    color: '#FFFFFFFF'
+    line_end: arrow
+    line_start: square
+    thickness: 1
+    type: line
+    x1: -40.0
+    y1: -280.0
+    x2: -40.0
+    y2: -200.0
+    z_index: 3
+  - border_color: '#808080FF'
+    border_style: ''
+    color: '#FFFFFFFF'
+    line_end: arrow
+    line_start: square
+    thickness: 1
+    type: line
+    x1: 200.0
+    y1: -280.0
+    x2: 200.0
+    y2: -200.0
+    z_index: 3
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FF0000'
+    rotation: 0
+    text_bold: false
+    text_content: AS 6810
+    text_font: monospace
+    text_italic: false
+    text_size: 18
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -80.0
+    y1: -80.0
+    z_index: 4
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -347.3684210526316
+    y1: -193.6842105263158
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -604.5789473684212
+    y1: -271.8421052631579
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -810.8947368421053
+    y1: -279.2105263157895
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -605.2631578947369
+    y1: -116.84210526315789
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -808.7894736842106
+    y1: -111.8421052631579
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.6'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -544.5789473684212
+    y1: -119.21052631578948
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.0'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -524.5789473684212
+    y1: -257.10526315789474
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.7'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -361.21052631578954
+    y1: -127.84210526315786
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 676.8421052631579
+    y1: -112.63157894736842
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 671.2105263157895
+    y1: -273.94736842105266
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.0'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -296.8421052631579
+    y1: -148.42105263157896
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -80.00000000000001
+    y1: -141.0526315789474
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 472.63157894736844
+    y1: -113.68421052631581
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 465.9473684210526
+    y1: -271.8421052631579
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -14.052631578947393
+    y1: -140.26315789473685
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 139.99999999999997
+    y1: -137.89473684210523
+    z_index: 5
+  - border_color: '#808080FF'
+    border_radius: 0
+    border_style: ''
+    color: '#FFF8D1'
+    rotation: 0
+    thickness: 1
+    type: rectangle
+    x1: -400.0
+    y1: -320.0
+    x2: 680.0
+    y2: 320.0
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.4'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 392.2631578947368
+    y1: -262.3684210526316
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.5'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 217.89473684210526
+    y1: -202.1052631578947
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 384.8947368421053
+    y1: -79.21052631578945
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 213.68421052631572
+    y1: -123.15789473684211
+    z_index: 5
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#808080FF'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      RT GREEN 6810:100
+      RT BLUE  6810:200
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -120.0
+    y1: -40.0
+    z_index: 6
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 2151 bytes
+          !
+          ! Last configuration change at 14:03:41 UTC Sat Oct 25 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname PE1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          ip vrf BLUE
+           rd 10.0.1.1:200
+           route-target export 6810:200
+           route-target import 6810:200
+          !
+          ip vrf GREEN
+           rd 10.0.1.1:100
+           route-target export 6810:100
+           route-target import 6810:100
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 10.0.1.1 255.255.255.255
+          !
+          interface Ethernet0/0
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/1
+           ip vrf forwarding BLUE
+           ip address 10.255.0.7 255.255.255.254
+          !
+          interface Ethernet0/2
+           ip vrf forwarding GREEN
+           ip address 10.255.0.1 255.255.255.254
+          !
+          interface Ethernet0/3
+           ip address 10.0.100.0 255.255.255.254
+           mpls ip
+          !
+          !
+          router eigrp 1
+           network 10.0.1.1 0.0.0.0
+           network 10.0.100.0 0.0.0.1
+          !
+          router ospf 1 vrf BLUE
+           router-id 10.0.1.1
+           domain-id 10.0.1.1
+           redistribute bgp 6810
+           network 10.255.0.6 0.0.0.1 area 0
+          !
+          router ospf 2 vrf GREEN
+           router-id 10.0.1.1
+           domain-id 10.0.1.1
+           redistribute bgp 6810
+           network 10.255.0.0 0.0.0.1 area 0
+          !
+          router bgp 6810
+           bgp log-neighbor-changes
+           neighbor 10.0.1.3 remote-as 6810
+           neighbor 10.0.1.3 update-source Loopback0
+           !
+           address-family ipv4
+            no neighbor 10.0.1.3 activate
+           exit-address-family
+           !
+           address-family vpnv4
+            neighbor 10.0.1.3 activate
+            neighbor 10.0.1.3 send-community extended
+           exit-address-family
+           !
+           address-family ipv4 vrf BLUE
+            redistribute ospf 1 match internal external 1 external 2
+           exit-address-family
+           !
+           address-family ipv4 vrf GREEN
+            redistribute ospf 2 match internal external 1 external 2
+           exit-address-family
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: PE1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -320
+    y: -160
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 2151 bytes
+          !
+          ! Last configuration change at 14:03:52 UTC Sat Oct 25 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname PE2
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          ip vrf BLUE
+           rd 10.0.1.3:200
+           route-target export 6810:200
+           route-target import 6810:200
+          !
+          ip vrf GREEN
+           rd 10.0.1.3:100
+           route-target export 6810:100
+           route-target import 6810:100
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 10.0.1.3 255.255.255.255
+          !
+          interface Ethernet0/0
+           ip address 10.0.100.3 255.255.255.254
+           mpls ip
+          !
+          interface Ethernet0/1
+           ip vrf forwarding BLUE
+           ip address 10.255.0.3 255.255.255.254
+          !
+          interface Ethernet0/2
+           ip vrf forwarding GREEN
+           ip address 10.255.0.5 255.255.255.254
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          !
+          router eigrp 1
+           network 10.0.1.3 0.0.0.0
+           network 10.0.100.2 0.0.0.1
+          !
+          router ospf 1 vrf BLUE
+           router-id 10.0.1.3
+           domain-id 10.0.1.3
+           redistribute bgp 6810
+           network 10.255.0.2 0.0.0.1 area 0
+          !
+          router ospf 2 vrf GREEN
+           router-id 10.0.1.3
+           domain-id 10.0.1.3
+           redistribute bgp 6810
+           network 10.255.0.4 0.0.0.1 area 0
+          !
+          router bgp 6810
+           bgp log-neighbor-changes
+           neighbor 10.0.1.1 remote-as 6810
+           neighbor 10.0.1.1 update-source Loopback0
+           !
+           address-family ipv4
+            no neighbor 10.0.1.1 activate
+           exit-address-family
+           !
+           address-family vpnv4
+            neighbor 10.0.1.1 activate
+            neighbor 10.0.1.1 send-community extended
+           exit-address-family
+           !
+           address-family ipv4 vrf BLUE
+            redistribute ospf 1 match internal external 1 external 2
+           exit-address-family
+           !
+           address-family ipv4 vrf GREEN
+            redistribute ospf 2 match internal external 1 external 2
+           exit-address-family
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: PE2
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: 200
+    y: -160
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1150 bytes
+          !
+          ! Last configuration change at 14:03:48 UTC Sat Oct 25 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname P1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 10.0.1.2 255.255.255.255
+          !
+          interface Ethernet0/0
+           ip address 10.0.100.2 255.255.255.254
+           mpls ip
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           ip address 10.0.100.1 255.255.255.254
+           mpls ip
+          !
+          !
+          router eigrp 1
+           network 10.0.1.2 0.0.0.0
+           network 10.0.100.0 0.0.0.1
+           network 10.0.100.2 0.0.0.1
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: P1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -40
+    y: -160
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1097 bytes
+          !
+          ! Last configuration change at 14:03:35 UTC Sat Oct 25 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CE-GREEN-1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Ethernet0/0
+           ip address 10.10.80.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           ip address 10.255.0.0 255.255.255.254
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface Ethernet0/0
+           network 10.10.80.0 0.0.0.255 area 0
+           network 10.255.0.0 0.0.0.1 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n3
+    image_definition: null
+    label: CE-GREEN-1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -560
+    y: -240
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1096 bytes
+          !
+          ! Last configuration change at 14:03:37 UTC Sat Oct 25 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CE-BLUE-1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Ethernet0/0
+           ip address 10.10.80.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 10.255.0.6 255.255.255.254
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface Ethernet0/0
+           network 10.10.80.0 0.0.0.255 area 0
+           network 10.255.0.6 0.0.0.1 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n4
+    image_definition: null
+    label: CE-BLUE-1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -560
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1097 bytes
+          !
+          ! Last configuration change at 14:03:54 UTC Sat Oct 25 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CE-GREEN-2
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Ethernet0/0
+           ip address 10.10.90.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           ip address 10.255.0.4 255.255.255.254
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface Ethernet0/0
+           network 10.10.90.0 0.0.0.255 area 0
+           network 10.255.0.4 0.0.0.1 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n5
+    image_definition: null
+    label: CE-GREEN-2
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: 440
+    y: -240
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1096 bytes
+          !
+          ! Last configuration change at 14:03:56 UTC Sat Oct 25 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CE-BLUE-2
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Ethernet0/0
+           ip address 10.10.90.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 10.255.0.2 255.255.255.254
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface Ethernet0/0
+           network 10.10.90.0 0.0.0.255 area 0
+           network 10.255.0.2 0.0.0.1 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n6
+    image_definition: null
+    label: CE-BLUE-2
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: 440
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: iosxe_config.txt
+        content: |-
+          # this is a shell script which will be sourced at boot
+          hostname VPC-BLUE-2
+          # configurable user account
+          USERNAME=cisco
+          PASSWORD=cisco
+          # no password for tc user by default
+          TC_PASSWORD=
+          ifconfig eth0 10.10.90.2 netmask 255.255.255.0
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n7
+    image_definition: null
+    label: VPC-BLUE-2
+    node_definition: server
+    parameters: {}
+    ram: null
+    tags: []
+    x: 720
+    y: -80
+    interfaces:
+      - id: i0
+        label: eth0
+        mac_address: null
+        type: physical
+        slot: 0
+  - boot_disk_size: null
+    configuration:
+      - name: iosxe_config.txt
+        content: |-
+          # this is a shell script which will be sourced at boot
+          hostname VPC-GREEN-2
+          # configurable user account
+          USERNAME=cisco
+          PASSWORD=cisco
+          # no password for tc user by default
+          TC_PASSWORD=
+          ifconfig eth0 10.10.90.2 netmask 255.255.255.0
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n8
+    image_definition: null
+    label: VPC-GREEN-2
+    node_definition: server
+    parameters: {}
+    ram: null
+    tags: []
+    x: 720
+    y: -240
+    interfaces:
+      - id: i0
+        label: eth0
+        mac_address: null
+        type: physical
+        slot: 0
+  - boot_disk_size: null
+    configuration:
+      - name: iosxe_config.txt
+        content: |-
+          # this is a shell script which will be sourced at boot
+          hostname VPC-GREEN-1
+          # configurable user account
+          USERNAME=cisco
+          PASSWORD=cisco
+          # no password for tc user by default
+          TC_PASSWORD=
+          ifconfig eth0 10.10.80.2 netmask 255.255.255.0
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n9
+    image_definition: null
+    label: VPC-GREEN-1
+    node_definition: server
+    parameters: {}
+    ram: null
+    tags: []
+    x: -840
+    y: -240
+    interfaces:
+      - id: i0
+        label: eth0
+        mac_address: null
+        type: physical
+        slot: 0
+  - boot_disk_size: null
+    configuration:
+      - name: iosxe_config.txt
+        content: |-
+          # this is a shell script which will be sourced at boot
+          hostname VPC-BLUE-1
+          # configurable user account
+          USERNAME=cisco
+          PASSWORD=cisco
+          # no password for tc user by default
+          TC_PASSWORD=
+          ifconfig eth0 10.10.80.2 netmask 255.255.255.0
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n10
+    image_definition: null
+    label: VPC-BLUE-1
+    node_definition: server
+    parameters: {}
+    ram: null
+    tags: []
+    x: -840
+    y: -80
+    interfaces:
+      - id: i0
+        label: eth0
+        mac_address: null
+        type: physical
+        slot: 0
+links:
+  - id: l0
+    n1: n8
+    n2: n5
+    i1: i0
+    i2: i1
+    conditioning: {}
+    label: VPC-GREEN-2-eth0<->CE-GREEN-2-Ethernet0/0
+  - id: l1
+    n1: n7
+    n2: n6
+    i1: i0
+    i2: i1
+    conditioning: {}
+    label: VPC-BLUE-2-eth0<->CE-BLUE-2-Ethernet0/0
+  - id: l2
+    n1: n10
+    n2: n4
+    i1: i0
+    i2: i1
+    conditioning: {}
+    label: VPC-BLUE-1-eth0<->CE-BLUE-1-Ethernet0/0
+  - id: l3
+    n1: n9
+    n2: n3
+    i1: i0
+    i2: i1
+    conditioning: {}
+    label: VPC-GREEN-1-eth0<->CE-GREEN-1-Ethernet0/0
+  - id: l4
+    n1: n4
+    n2: n0
+    i1: i2
+    i2: i2
+    conditioning: {}
+    label: CE-BLUE-1-Ethernet0/1<->PE1-Ethernet0/1
+  - id: l5
+    n1: n3
+    n2: n0
+    i1: i3
+    i2: i3
+    conditioning: {}
+    label: CE-GREEN-1-Ethernet0/2<->PE1-Ethernet0/2
+  - id: l6
+    n1: n0
+    n2: n2
+    i1: i4
+    i2: i4
+    conditioning: {}
+    label: PE1-Ethernet0/3<->P1-Ethernet0/3
+  - id: l7
+    n1: n5
+    n2: n1
+    i1: i3
+    i2: i3
+    conditioning: {}
+    label: CE-GREEN-2-Ethernet0/2<->PE2-Ethernet0/2
+  - id: l8
+    n1: n6
+    n2: n1
+    i1: i2
+    i2: i2
+    conditioning: {}
+    label: CE-BLUE-2-Ethernet0/1<->PE2-Ethernet0/1
+  - id: l9
+    n1: n2
+    n2: n1
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: P1-Ethernet0/0<->PE2-Ethernet0/0
+lab:
+  description: ''
+  notes: ''
+  title: MPLS-L3VPN
+  version: 0.3.0

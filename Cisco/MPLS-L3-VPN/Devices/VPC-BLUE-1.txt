@@ -1,0 +1,9 @@
+# this is a shell script which will be sourced at boot
+hostname VPC-BLUE-1
+# configurable user account
+USERNAME=cisco
+PASSWORD=cisco
+# no password for tc user by default
+TC_PASSWORD=
+ifconfig eth0 10.10.80.2 netmask 255.255.255.0
+route add default gw 10.10.80.1

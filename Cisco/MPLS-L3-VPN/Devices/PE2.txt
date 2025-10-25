@@ -1,0 +1,76 @@
+!
+hostname PE2
+!
+ip vrf BLUE
+ rd 10.0.1.3:200
+ route-target export 6810:200
+ route-target import 6810:200
+!
+ip vrf GREEN
+ rd 10.0.1.3:100
+ route-target export 6810:100
+ route-target import 6810:100
+!
+interface Loopback0
+ ip address 10.0.1.3 255.255.255.255
+ no shutdown
+!
+interface Ethernet0/0
+ ip address 10.0.100.3 255.255.255.254
+ mpls ip
+ no shutdown
+!
+interface Ethernet0/1
+ ip vrf forwarding BLUE
+ ip address 10.255.0.3 255.255.255.254
+ no shutdown
+!
+interface Ethernet0/2
+ ip vrf forwarding GREEN
+ ip address 10.255.0.5 255.255.255.254
+ no shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+!
+router eigrp 1
+ network 10.0.1.3 0.0.0.0
+ network 10.0.100.2 0.0.0.1
+!
+router ospf 1 vrf BLUE
+ router-id 10.0.1.3
+ domain-id 10.0.1.3
+ redistribute bgp 6810
+ network 10.255.0.2 0.0.0.1 area 0
+!
+router ospf 2 vrf GREEN
+ router-id 10.0.1.3
+ domain-id 10.0.1.3
+ redistribute bgp 6810
+ network 10.255.0.4 0.0.0.1 area 0
+!
+router bgp 6810
+ bgp log-neighbor-changes
+ neighbor 10.0.1.1 remote-as 6810
+ neighbor 10.0.1.1 update-source Loopback0
+ !
+ address-family ipv4
+  no neighbor 10.0.1.1 activate
+ exit-address-family
+ !
+ address-family vpnv4
+  neighbor 10.0.1.1 activate
+  neighbor 10.0.1.1 send-community extended
+ exit-address-family
+ !
+ address-family ipv4 vrf BLUE
+  redistribute ospf 1 match internal external 1 external 2
+ exit-address-family
+ !
+ address-family ipv4 vrf GREEN
+  redistribute ospf 2 match internal external 1 external 2
+ exit-address-family
+!
+end

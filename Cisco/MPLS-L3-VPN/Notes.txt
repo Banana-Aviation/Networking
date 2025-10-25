@@ -1,0 +1,4 @@
+Internal IGP is EIGRP
+CE-PE peering via OSPF
+Can't put different VRFs into one OSPF process on same router: `router ospf 1 vrf BLUE`
+It is essential to set default gateway on VPCs
