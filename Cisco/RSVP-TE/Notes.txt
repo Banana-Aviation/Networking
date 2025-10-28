@@ -1,0 +1,9 @@
+In MPLS-L3-VPN scenario when CE <-> PE peering established via eBGP protocol, and customer's sites are in the same ASN - `as-override` configuration should be added.
+On PE routers this configuration should be added under `router bgp` configuration mode:
+address-family ipv4 vrf <CUSTOMER VRF NAME>
+ neighbor <ce ip> remote-as <ce ASN>
+ neighbor <ce ip> activate
+ neighbor <ce ip> as-override
+The key thing here is `as-override` statement - it tells PE router to override ASN in eBGP update to it's own
+This is done because when a CE router sees it's own ASN in the AS_PATH in eBGP update it will drop the update (due to loop prevention mechanism)
+Perhaps it can be also achivied with `route-maps` on CE or PE, but `as-override` is cleaner.

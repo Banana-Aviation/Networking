@@ -1,0 +1,153 @@
+Building configuration...
+
+Current configuration : 1859 bytes
+!
+! Last configuration change at 19:15:31 UTC Mon Oct 27 2025
+!
+version 17.16
+service timestamps debug datetime msec
+service timestamps log datetime msec
+!
+hostname PE2
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no logging console
+no aaa new-model
+!
+!
+!
+!
+ip vrf CUST-A
+ rd 10.0.1.5:100
+ route-target export 6810:100
+ route-target import 6810:100
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+login on-success log
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+memory free low-watermark processor 79983
+!
+!
+spanning-tree mode rapid-pvst
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 10.0.1.5 255.255.255.255
+!
+interface Ethernet0/0
+ ip address 10.0.100.15 255.255.255.254
+ mpls ip
+!
+interface Ethernet0/1
+ ip address 10.0.100.17 255.255.255.254
+ mpls ip
+!
+interface Ethernet0/2
+ ip address 10.0.100.13 255.255.255.254
+ mpls ip
+!
+interface Ethernet0/3
+ ip vrf forwarding CUST-A
+ ip address 10.255.0.3 255.255.255.254
+!
+router ospf 1
+ router-id 10.0.1.5
+ network 10.0.1.5 0.0.0.0 area 0
+ network 10.0.100.12 0.0.0.1 area 0
+ network 10.0.100.14 0.0.0.1 area 0
+ network 10.0.100.16 0.0.0.1 area 0
+!
+router bgp 6810
+ bgp log-neighbor-changes
+ no bgp default ipv4-unicast
+ neighbor 10.0.1.0 remote-as 6810
+ neighbor 10.0.1.0 update-source Loopback0
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family vpnv4
+  neighbor 10.0.1.0 activate
+  neighbor 10.0.1.0 send-community extended
+ exit-address-family
+ !
+ address-family ipv4 vrf CUST-A
+  neighbor 10.255.0.2 remote-as 64512
+  neighbor 10.255.0.2 activate
+  neighbor 10.255.0.2 as-override
+ exit-address-family
+!
+ip forward-protocol nd
+ip forward-protocol udp
+!
+!
+ip http server
+ip http secure-server
+ip ssh bulk-mode 131072
+no logging btrace
+!
+!
+!
+control-plane
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ exec-timeout 0 0
+ login
+ transport input ssh
+!
+!
+!
+!
+end
