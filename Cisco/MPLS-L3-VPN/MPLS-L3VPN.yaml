@@ -1881,6 +1881,7 @@ nodes:
           # no password for tc user by default
           TC_PASSWORD=
           ifconfig eth0 10.10.90.2 netmask 255.255.255.0
+          route add default gw 10.10.90.1
     cpu_limit: null
     cpus: null
     data_volume: null
@@ -1912,6 +1913,7 @@ nodes:
           # no password for tc user by default
           TC_PASSWORD=
           ifconfig eth0 10.10.90.2 netmask 255.255.255.0
+          route add default gw 10.10.90.1
     cpu_limit: null
     cpus: null
     data_volume: null
@@ -1943,6 +1945,7 @@ nodes:
           # no password for tc user by default
           TC_PASSWORD=
           ifconfig eth0 10.10.80.2 netmask 255.255.255.0
+          route add default gw 10.10.80.1
     cpu_limit: null
     cpus: null
     data_volume: null
@@ -1974,6 +1977,7 @@ nodes:
           # no password for tc user by default
           TC_PASSWORD=
           ifconfig eth0 10.10.80.2 netmask 255.255.255.0
+          route add default gw 10.10.80.1
     cpu_limit: null
     cpus: null
     data_volume: null
