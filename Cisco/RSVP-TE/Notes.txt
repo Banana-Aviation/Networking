@@ -1,17 +1,17 @@
 Basic RSVP-TE configuration
 
-1. Enable rsvp-te globally  `mpls traffic-eng tunnels`
+1. Enable rsvp-te globally  mpls traffic-eng tunnels
 
 2. Enable rsvp-te on each mpls core facing interface    
 ! 500Mbps max bandwidth can be reserved/allocated to rsvp-te 
-    `interface e0/0`
-    `mpls traffic-eng tunnels`
-    `ip rsvp bandwidth 500000`
+    interface e0/0
+    mpls traffic-eng tunnels
+    ip rsvp bandwidth 500000
 
 3. Enable OSPF TE extensions
-   `router ospf 1`
-   `mpls traffic-eng area 0`
-   `mpls traffic-eng router-id loopback 0`
+   router ospf 1
+   mpls traffic-eng area 0
+   mpls traffic-eng router-id loopback 0
 
 4. Create Tunnel interface only on head-end router (rsvp-te tunnels are unidirectional)
 ! bandwidth allocated to the tunnel is 1000 Kbps ( 1Mbps )
@@ -25,32 +25,19 @@ tunnel mpls traffic-eng path-options 1 dynamic
 #-----------------------------------------------
 To route traffic down a tunnel different techniques may be used:
 
-1. Static routing : `ip route <remote network> <prefix> Tunnel 1`
-2. Autoroute announce:
-    `interface Tunnel 1`
-    `tunnel mpls traffic-eng autoroute announce`
-   Autoroute announce will make all networks that are found behind tail-end router will be added
-   to the routing table of head-end router with next hop via `Tunnel 1`.
-   This routes are considered OSPF routes but they are not advertised to OSPF neighbors, and remain local to head-end router.
- routing table of PE1 after autoroute announce change:
+1. Static routing : ip route <remote network> <prefix> Tunnel 1
 
-       10.0.0.0/8 is variably subnetted, 23 subnets, 3 masks
-C        10.0.1.0/32 is directly connected, Loopback0
-O        10.0.1.1/32 [110/11] via 10.0.100.11, 01:32:17, Ethernet0/2
-O        10.0.1.2/32 [110/11] via 10.0.100.5, 01:32:17, Ethernet0/3
-O        10.0.1.3/32 [110/11] via 10.0.100.3, 01:32:17, Ethernet0/1
+2. Autoroute announce:
+    interface Tunnel 1
+    tunnel mpls traffic-eng autoroute announce
+   Autoroute announce will make all networks that are found behind tail-end router will be added
+   to the routing table of head-end router with next hop via Tunnel 1.
+   This routes are considered OSPF routes but they are not advertised to OSPF neighbors, and remain local to head-end router.
+ routing table excerpt of PE1 after autoroute announce change:
+
 O        10.0.1.4/32 [110/21] via 10.0.100.11, 01:32:17, Ethernet0/2
                      [110/21] via 10.0.100.3, 01:32:17, Ethernet0/1
 O        10.0.1.5/32 [110/21] via 10.0.1.5, 00:23:48, Tunnel1      <---------------------------
-C        10.0.100.2/31 is directly connected, Ethernet0/1
-L        10.0.100.2/32 is directly connected, Ethernet0/1
-C        10.0.100.4/31 is directly connected, Ethernet0/3
-L        10.0.100.4/32 is directly connected, Ethernet0/3
-O        10.0.100.6/31 [110/20] via 10.0.100.3, 01:32:17, Ethernet0/1
-O        10.0.100.8/31 [110/20] via 10.0.100.11, 01:32:17, Ethernet0/2
-                       [110/20] via 10.0.100.3, 01:32:17, Ethernet0/1
-C        10.0.100.10/31 is directly connected, Ethernet0/2
-L        10.0.100.10/32 is directly connected, Ethernet0/2
 O        10.0.100.12/31 [110/20] via 10.0.100.5, 01:32:17, Ethernet0/3
 O        10.0.100.14/31 [110/20] via 10.0.100.11, 01:32:17, Ethernet0/2
 O        10.0.100.16/31 [110/30] via 10.0.100.11, 00:23:48, Ethernet0/2
@@ -62,3 +49,41 @@ O        10.10.90.0/24 [110/40] via 10.0.1.5, 00:23:48, Tunnel1     <-----------
 C        10.255.0.0/31 is directly connected, Ethernet0/0
 L        10.255.0.1/32 is directly connected, Ethernet0/0
 O        10.255.0.2/31 [110/30] via 10.0.1.5, 00:23:48, Tunnel1     <--------------------------- 
+
+3. Autoroute destination
+    interface Tunnel 1
+    tunnel mpls traffic-eng autoroute destination
+    Autoroute destination will install static route to the tunnel destination in head-end router routing table
+    Which is better than static route on it's own
+
+4. PBR Policy Based Routing over MPLS-TE
+    4.1 create acl to permit traffic to destination network
+        ip access-list extended ACL-PBR-CE2
+        permit ip any 10.10.90.0 0.0.0.255
+    4.2 create route-map and set next hop Tunnel 1 
+        route-map PBR-CE2-TUNNEL1 permit 10
+        match ip address ACL-PBR-CE2
+        set interface Tunnel1
+    4.3 Apply route-map policy on CE facing interface
+        interface E0/0
+        ip policy route-map PBR-CE2-TUNNEL1
+#-----------------------------------------------
+
+Reoptimization timer 
+
+show mpls traffic-eng tunnels summary
+
+Periodic reoptimization:        every 3600 seconds, next in 407 seconds
+
+Reoptimization of TE Tunnels will occur on timer - by default every hour
+Globally timer can be set like this:
+(config)#mpls traffic-eng reoptimize timers frequency <0-604800>
+
+Manual reoptimize:
+#mpls traffic-eng reoptimize Tunnel 1
+
+Verify on existing topology by shutting down interface e0/0 on p2, then e0/0 on p1 
+You will see in the output of "show mpls traffic-eng tunnels Tunnel 1" that tunnel path is via P3 and P4
+no shut the interfaces and traceroute from svc1 - You will see that traffic still go via P3 and P4 
+finally force reoptimization and observer the changes
+
