@@ -1,0 +1,173 @@
+Building configuration...
+
+Current configuration : 3698 bytes
+!
+! Last configuration change at 12:33:28 UTC Wed Oct 29 2025
+!
+version 17.16
+service timestamps debug datetime msec
+service timestamps log datetime msec
+!
+hostname P3
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no logging console
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+login on-success log
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+mpls traffic-eng tunnels
+!
+!
+crypto pki trustpoint TP-self-signed-131184653
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-131184653
+ revocation-check none
+ rsakeypair TP-self-signed-131184653
+ hash sha512
+!
+!
+crypto pki certificate chain TP-self-signed-131184653
+ certificate self-signed 01
+  3082032E 30820216 A0030201 02020101 300D0609 2A864886 F70D0101 0D050030 
+  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 31333131 38343635 33301E17 0D323531 30323831 31303830 
+  325A170D 33353130 32383131 30383032 5A303031 2E302C06 03550403 0C25494F 
+  532D5365 6C662D53 69676E65 642D4365 72746966 69636174 652D3133 31313834 
+  36353330 82012230 0D06092A 864886F7 0D010101 05000382 010F0030 82010A02 
+  82010100 A6B542C3 54F7A42C DA7B92D6 47F6BD46 755DEDD8 26E5DB98 C4A7A10C 
+  AC9369E8 D8B80C5B 7867B1ED F81A036C B0C7342D 45C1605D 4C236A6E 9662BE0C 
+  43AEE22E AC1FC916 54941E06 BF1E1964 2EB4BF62 3E0F6C1B B2D4C1F1 A6CB0FF8 
+  17226858 BFF532DA AE2F8FA0 0A6A0C7E 11601303 A0DBA924 F7C17703 6F0032D5 
+  CF59DD5F 4840C293 08E23171 2C5CAE1C E6DFB9E6 EE865350 37B36E2E B1AAC8A9 
+  2803E08E E407C809 0577BAF2 830861C0 B42FB5DD 1DD66983 8126F99B 12D3B897 
+  4FB18649 934EB0F8 F177EC75 F755BD98 4A64CBDE DA49E21A 71F19283 1429B655 
+  1919948F 460A45C1 0E2887C9 0089ADE6 33B5E613 131D4792 754B6C01 12A02C01 
+  EE59985D 02030100 01A35330 51301D06 03551D0E 04160414 E7199313 2C8CD6E1 
+  2388D9B8 243F7C72 08B378C8 301F0603 551D2304 18301680 14E71993 132C8CD6 
+  E12388D9 B8243F7C 7208B378 C8300F06 03551D13 0101FF04 05300301 01FF300D 
+  06092A86 4886F70D 01010D05 00038201 010080E6 CED98104 6D826023 D0C057D2 
+  36A93A44 732FF5B1 AF72C67D 2C0F00F4 0C141C05 0F474B78 ADDFA2AD 705B2671 
+  ECACA46D 8B506382 08494E36 A18BE150 C50A0528 59E22C35 5EF4E3A1 BE842CAF 
+  A0030F48 1037289E D0AB98A6 1AEAB237 B01A4DFD EEDA87D7 9231388E 7C326FC0 
+  2F312C2E 778F30D2 8DA81956 D0F11EF1 900311AE F0D686E6 A059E3DB 541DE145 
+  AEB9156C 2EB7C0BD CE2B051B EFEB99A0 8AA9C94C 369E5BD3 FF4D5F76 C912E1C1 
+  6858BE02 4122AF75 31D5C077 03E6B406 3D276777 1A218F5E 39D5B8DF 9D866B0F 
+  0407B77F B03FF7A6 0FC66F88 5F0AED3D F7CA0CEB 4665F18D 3CB74264 F990D1B9 
+  11CB1A6D 488D8958 4EFE1058 6192653A 9D1F
+  	quit
+!
+!
+memory free low-watermark processor 79983
+!
+!
+spanning-tree mode rapid-pvst
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 10.0.1.3 255.255.255.255
+!
+interface Ethernet0/0
+ ip address 10.0.100.3 255.255.255.254
+ mpls ip
+ mpls traffic-eng tunnels
+ ip rsvp bandwidth 500000
+!
+interface Ethernet0/1
+ ip address 10.0.100.6 255.255.255.254
+ mpls ip
+ mpls traffic-eng tunnels
+ ip rsvp bandwidth 500000
+!
+interface Ethernet0/2
+ ip address 10.0.100.8 255.255.255.254
+ mpls ip
+ mpls traffic-eng tunnels
+ ip rsvp bandwidth 500000
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+router ospf 1
+ router-id 10.0.1.3
+ network 10.0.1.3 0.0.0.0 area 0
+ network 10.0.100.2 0.0.0.1 area 0
+ network 10.0.100.6 0.0.0.1 area 0
+ network 10.0.100.8 0.0.0.1 area 0
+ mpls traffic-eng router-id Loopback0
+ mpls traffic-eng area 0
+!
+ip forward-protocol nd
+ip forward-protocol udp
+!
+!
+ip http server
+ip http secure-server
+ip ssh bulk-mode 131072
+no logging btrace
+!
+!
+!
+control-plane
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ exec-timeout 0 0
+ login
+ transport input ssh
+!
+!
+!
+!
+end

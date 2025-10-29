@@ -1,0 +1,184 @@
+Building configuration...
+
+Current configuration : 4096 bytes
+!
+! Last configuration change at 12:33:22 UTC Wed Oct 29 2025
+!
+version 17.16
+service timestamps debug datetime msec
+service timestamps log datetime msec
+!
+hostname PE1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no logging console
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+login on-success log
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+mpls traffic-eng tunnels
+mpls traffic-eng logging lsp setups
+mpls traffic-eng logging lsp teardowns
+!
+!
+crypto pki trustpoint TP-self-signed-131184642
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-131184642
+ revocation-check none
+ rsakeypair TP-self-signed-131184642
+ hash sha512
+!
+!
+crypto pki certificate chain TP-self-signed-131184642
+ certificate self-signed 01
+  3082032E 30820216 A0030201 02020101 300D0609 2A864886 F70D0101 0D050030 
+  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 31333131 38343634 32301E17 0D323531 30323831 31303434 
+  305A170D 33353130 32383131 30343430 5A303031 2E302C06 03550403 0C25494F 
+  532D5365 6C662D53 69676E65 642D4365 72746966 69636174 652D3133 31313834 
+  36343230 82012230 0D06092A 864886F7 0D010101 05000382 010F0030 82010A02 
+  82010100 945558D7 2DCECECD 1C66F34E 1B38542A F59A9816 836C1B24 67245770 
+  2FB2426A C095A4F3 DD65BC59 44005EB2 2D8917FD 14D68417 545B75D1 246BD210 
+  69AD1795 F83A39F0 31E76FCA 03DF6CA3 7CC5A8A1 BD8819E2 17A45FCC B2596DB5 
+  7E141D8E B2C56F16 AD4F33E6 1FE9E8B4 ABDB7B58 A8451992 EF806EA1 6AF2D2EA 
+  927A7A00 5623E716 65ED2C44 B3D2B614 EE407BC0 922CE228 F1C73BE5 D1E6EF6A 
+  2A698695 0426C798 8C03B936 99083513 F0600EF9 59BE4397 A6FF6D84 B71394F7 
+  6CCCF9B0 F2C0F457 9E8CEE6E 782B1778 27C6BEC0 62768BC5 B2508DDC 1CFEE6B5 
+  8D0E7CF1 E4B0FF55 44607824 42B9A5B1 C1979228 45ECDB47 2EFEA74D DAD96151 
+  CBCA0277 02030100 01A35330 51301D06 03551D0E 04160414 044C7BBC 6237DD59 
+  B6DFA691 A0D044CD 159C0214 301F0603 551D2304 18301680 14044C7B BC6237DD 
+  59B6DFA6 91A0D044 CD159C02 14300F06 03551D13 0101FF04 05300301 01FF300D 
+  06092A86 4886F70D 01010D05 00038201 01004910 920BF7D7 59E1F891 399C75AC 
+  7E32D0F3 7E96CCD0 296FE897 6E611969 65D27BD0 9E26D126 EF8484DE 588A5766 
+  F0A97F20 7304DA4F B5265E4A 02421D59 50AB3720 CFFB802E 5DC0EC87 2F694976 
+  B826259A 48BCF163 4B2C768C 88A98903 51D5BC7D F86CD7A8 CAEF5F9E 288F65AF 
+  4CF83D8E DEF0938A C5EA8754 A9F46382 16C28B6C 1FB0D32C 0D9DA457 3D6A7C8D 
+  0E3B3A02 86F67668 E41CBCBB 44609811 7F583889 4FCFA7E0 EC290A1D 2ED70FA5 
+  B1300DF1 A0976127 5A53EEA1 E2FA9D9C 0E352FBB 299C31AF 702D97ED 32FBFAE6 
+  7EBFC571 396673FE F716D07F D1249183 A881E04B E2B10C4B 7FCEBF89 AB2DC8F5 
+  525F6A20 6BB634CB 2AC519F8 6402C369 1C45
+  	quit
+!
+!
+memory free low-watermark processor 79983
+!
+!
+spanning-tree mode rapid-pvst
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 10.0.1.0 255.255.255.255
+!
+interface Tunnel1
+ ip unnumbered Loopback0
+ tunnel mode mpls traffic-eng
+ tunnel destination 10.0.1.5
+ tunnel mpls traffic-eng priority 7 7
+ tunnel mpls traffic-eng bandwidth 1000
+ tunnel mpls traffic-eng path-option 1 dynamic
+!
+interface Ethernet0/0
+ ip address 10.255.0.1 255.255.255.254
+!
+interface Ethernet0/1
+ ip address 10.0.100.2 255.255.255.254
+ mpls ip
+ mpls traffic-eng tunnels
+ ip rsvp bandwidth 500000
+!
+interface Ethernet0/2
+ ip address 10.0.100.10 255.255.255.254
+ mpls ip
+ mpls traffic-eng tunnels
+ ip rsvp bandwidth 500000
+!
+interface Ethernet0/3
+ ip address 10.0.100.4 255.255.255.254
+ mpls ip
+ mpls traffic-eng tunnels
+ ip rsvp bandwidth 500000
+!
+router ospf 1
+ router-id 10.0.1.0
+ network 10.0.1.0 0.0.0.0 area 0
+ network 10.0.100.2 0.0.0.1 area 0
+ network 10.0.100.4 0.0.0.1 area 0
+ network 10.0.100.10 0.0.0.1 area 0
+ network 10.255.0.0 0.0.0.1 area 0
+ mpls traffic-eng router-id Loopback0
+ mpls traffic-eng area 0
+!
+ip forward-protocol nd
+ip forward-protocol udp
+!
+!
+ip http server
+ip http secure-server
+ip route 10.10.90.0 255.255.255.0 Tunnel1
+ip ssh bulk-mode 131072
+no logging btrace
+!
+!
+!
+control-plane
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ exec-timeout 0 0
+ login
+ transport input ssh
+!
+!
+!
+!
+end
