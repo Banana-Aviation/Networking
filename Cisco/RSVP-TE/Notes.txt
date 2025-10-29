@@ -87,3 +87,21 @@ You will see in the output of "show mpls traffic-eng tunnels Tunnel 1" that tunn
 no shut the interfaces and traceroute from svc1 - You will see that traffic still go via P3 and P4 
 finally force reoptimization and observer the changes
 
+#-----------------------------------------------
+
+Basic Fast-ReRoute FRR for RSVP-TE
+
+Enable One-To-One Backup:
+interface Tunnel 1
+tunnel mpls traffic-eng fast-reroute
+
+Verify: 
+- start continious ping on svc1 to 10.10.90.2 
+- show mpls traffic-eng tunnels tunnel 1 
+    - note the explicit route 
+- shut down ingress interface on the first Transit LSR in LSP
+- ping should stop only for a brief moment
+- show mpls traffic-eng tunnels tunnel 1 
+    - note the explicit route changed to backup
+
+TODO: Many-To-One Backup 
