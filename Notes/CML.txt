@@ -1,0 +1,10 @@
+#---
+For multicast testing in cml2 
+Node type - alpine
+
+receivers : iperf -s -u -B 224.0.67.67 -i 1
+sender : iperf -c 224.0.67.67 -u --ttl 5 -t 5
+
+Cisco config for multicast:
+(config)# ip multicast-routing
+per interface - (config-if)# ip pim dense-mode

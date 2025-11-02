@@ -1,0 +1,7 @@
+# this is a shell script which will be sourced at boot
+hostname C1
+# configurable user account
+USERNAME=c
+PASSWORD=c
+ip addr add 10.10.45.1/24 dev eth0 
+route add default gw 10.10.45.254

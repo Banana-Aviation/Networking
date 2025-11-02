@@ -1,0 +1,8 @@
+EoMPLS - Ethernet over MPLS
+Allows to create Point to Point L2 VPNs using "pseudowires"
+see https://datatracker.ietf.org/doc/html/rfc4448
+
+Customer facing interface on PE router should not have IP address
+On the customer end it can be switch or router
+
+based on : https://www.youtube.com/watch?v=CUgU4vH1V5k&list=PLmVr8r1kmMm2Px8A2_XSJ8wlYaACul0uc&index=13
