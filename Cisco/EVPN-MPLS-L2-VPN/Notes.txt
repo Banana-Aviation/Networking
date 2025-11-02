@@ -1,0 +1,8 @@
+
+
+TODO: 
+Gradually modify PEs configuration 
+1. Does "neighbor x.x.x.x send-community both" required, maybe "send-community extended" is sufficient?
+2. Why when trying to add "rd x.x.x.x:xx" there was a message : "% RD currently is use by EVPN instance 10". Maybe the order of commands was incorrect, anyways auto rd is considered ok practice based on loopback 0.
+
+

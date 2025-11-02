@@ -1,0 +1,155 @@
+Building configuration...
+
+Current configuration : 1868 bytes
+!
+! Last configuration change at 12:18:56 UTC Sun Nov 2 2025
+!
+version 17.16
+service timestamps debug datetime msec
+service timestamps log datetime msec
+!
+hostname PE3
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no logging console
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+login on-success log
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+l2vpn evpn instance 10 vlan-based
+ route-target export 6810:10
+ route-target import 6810:10
+ replication-type ingress
+!
+!
+!
+!
+!
+!
+memory free low-watermark processor 79983
+!
+!
+spanning-tree mode rapid-pvst
+!
+!
+bridge-domain 10 
+ member Ethernet0/0 service-instance 10
+ member evpn-instance 10
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 10.0.10.5 255.255.255.255
+!
+interface Ethernet0/0
+ description To Customer Site-3
+ no ip address
+ service instance 10 ethernet
+  encapsulation default
+ !
+!
+interface Ethernet0/1
+ no ip address
+ shutdown
+!
+interface Ethernet0/2
+ description To P2
+ ip address 10.0.100.7 255.255.255.254
+ mpls ip
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+router ospf 1
+ passive-interface Ethernet0/0
+ network 10.0.10.5 0.0.0.0 area 0
+ network 10.0.100.6 0.0.0.1 area 0
+!
+router bgp 6810
+ bgp router-id 10.0.10.5
+ bgp log-neighbor-changes
+ neighbor 10.0.10.1 remote-as 6810
+ neighbor 10.0.10.1 update-source Loopback0
+ neighbor 10.0.10.4 remote-as 6810
+ neighbor 10.0.10.4 update-source Loopback0
+ !
+ address-family l2vpn evpn
+  neighbor 10.0.10.1 activate
+  neighbor 10.0.10.1 send-community both
+  neighbor 10.0.10.4 activate
+  neighbor 10.0.10.4 send-community both
+ exit-address-family
+!
+ip forward-protocol nd
+ip forward-protocol udp
+!
+!
+ip http server
+ip http secure-server
+ip ssh bulk-mode 131072
+!
+no logging btrace
+!
+!
+!
+control-plane
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ exec-timeout 0 0
+ login
+ transport input ssh
+!
+!
+!
+!
+end
