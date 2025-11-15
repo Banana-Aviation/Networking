@@ -1,0 +1,1975 @@
+annotations:
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#F205F8'
+    rotation: 0
+    text_bold: false
+    text_content: AS7922
+    text_font: monospace
+    text_italic: false
+    text_size: 24
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -560.0
+    y1: -40.0
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#F205F8'
+    rotation: 0
+    text_bold: false
+    text_content: AS701
+    text_font: monospace
+    text_italic: false
+    text_size: 24
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -187.5000000000004
+    y1: -293.25000000000057
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.0.10.4/32
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -667.1428571428569
+    y1: -261.42857142857144
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.0.10.3/32
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -388.57142857142793
+    y1: 171.42857142857162
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.0.10.2/32
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -669.9999999999999
+    y1: 172.857142857143
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.0.10.1/32
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -940.3571428571432
+    y1: 175.32142857142819
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 203.0.113.14/31
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -517.8571428571443
+    y1: -235.0714285714299
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.10.90.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 40.00000000000031
+    y1: 88.57142857142877
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.255.0.2/31
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -1083.2142857142858
+    y1: 91.0357142857141
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 270
+    text_bold: true
+    text_content: 10.0.100.4/31
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -689.2857142857154
+    y1: -49.35714285714398
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.0.100.2/31
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -528.5714285714284
+    y1: 84.28571428571442
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.0.100.0/31
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -803.2142857142863
+    y1: 83.89285714285664
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 10.255.0.0/31
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -249.99999999999986
+    y1: 81.42857142857143
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 90
+    text_bold: true
+    text_content: 10.10.80.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -1174.8276198250912
+    y1: -21.63666588919552
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: 203.0.113.0/31
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -206.07142857142887
+    y1: -231.8214285714288
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -367.1428571428571
+    y1: 88.57142857142875
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -574.2857142857141
+    y1: 85.71428571428588
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -1150.0000000000002
+    y1: 81.42857142857163
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -1146.0714285714294
+    y1: -121.82142857142894
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -918.5714285714286
+    y1: 92.85714285714303
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -1128.9285714285725
+    y1: 128.1785714285711
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.0'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -854.2857142857142
+    y1: 91.4285714285716
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -652.8571428571428
+    y1: 90.00000000000013
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -16.071428571428896
+    y1: 91.03571428571409
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 192.49999999999943
+    y1: 83.89285714285681
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.0'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -102.8571428571426
+    y1: 82.857142857143
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -298.9285714285722
+    y1: 91.03571428571395
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.5'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -644.2857142857142
+    y1: -147.1428571428571
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.4'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -647.1428571428571
+    y1: 45.71428571428579
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -47.14285714285684
+    y1: -232.8571428571427
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.0'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -254.28571428571405
+    y1: -235.71428571428555
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.15'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -349.9999999999998
+    y1: -238.57142857142864
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: true
+    text_content: '.14'
+    text_font: monospace
+    text_italic: false
+    text_size: 14
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -561.4285714285713
+    y1: -231.42857142857144
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#0025FF'
+    rotation: 0
+    text_bold: true
+    text_content: |-
+      rd           7922:100
+      route-target 7922:100
+    text_font: monospace
+    text_italic: false
+    text_size: 17
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -1080.0
+    y1: -240.0
+    z_index: 2
+smart_annotations:
+  - tag: CMST ISP
+    is_on: true
+    padding: 35
+    label: ''
+    tag_offset_x: 0
+    tag_offset_y: 0
+    tag_size: 14
+    group_distance: 400
+    thickness: 1
+    border_style: ''
+    fill_color: '#00B14080'
+    border_color: '#00000080'
+    z_index: -1
+  - tag: CUSTOMER SITE 1
+    is_on: true
+    padding: 35
+    label: ''
+    tag_offset_x: 0
+    tag_offset_y: 0
+    tag_size: 14
+    group_distance: 400
+    thickness: 1
+    border_style: ''
+    fill_color: '#A4C8E180'
+    border_color: '#00000080'
+    z_index: -1
+  - tag: CUSTOMER SITE 2
+    is_on: true
+    padding: 35
+    label: ''
+    tag_offset_x: 0
+    tag_offset_y: 0
+    tag_size: 14
+    group_distance: 400
+    thickness: 1
+    border_style: ''
+    fill_color: '#A95FBE80'
+    border_color: '#00000080'
+    z_index: -1
+  - tag: Internet
+    is_on: true
+    padding: 35
+    label: ''
+    tag_offset_x: 0
+    tag_offset_y: 0
+    tag_size: 14
+    group_distance: 400
+    thickness: 1
+    border_style: ''
+    fill_color: '#007A3380'
+    border_color: '#00000080'
+    z_index: -1
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1401 bytes
+          !
+          ! Last configuration change at 21:49:03 UTC Sat Nov 15 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CMST-ASBR-1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 10.0.10.4 255.255.255.255
+           ip router isis
+          !
+          interface Ethernet0/0
+           ip address 203.0.113.14 255.255.255.254
+          !
+          interface Ethernet0/1
+           ip address 10.0.100.5 255.255.255.254
+           ip router isis
+           mpls ip
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router isis
+           net 49.0001.0100.0001.0004.00
+           passive-interface Ethernet0/0
+          !
+          router bgp 7922
+           bgp log-neighbor-changes
+           neighbor 10.0.10.1 remote-as 7922
+           neighbor 10.0.10.1 update-source Loopback0
+           neighbor 10.0.10.3 remote-as 7922
+           neighbor 10.0.10.3 update-source Loopback0
+           neighbor 203.0.113.15 remote-as 701
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: CMST-ASBR-1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags:
+      - CMST ISP
+    x: -600
+    y: -200
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1107 bytes
+          !
+          ! Last configuration change at 21:48:40 UTC Sat Nov 15 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname VRZN-ASBR-1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Ethernet0/0
+           ip address 203.0.113.15 255.255.255.254
+          !
+          interface Ethernet0/1
+           ip address 203.0.113.0 255.255.255.254
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router bgp 701
+           bgp log-neighbor-changes
+           network 203.0.113.0 mask 255.255.255.254
+           neighbor 203.0.113.14 remote-as 7922
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: VRZN-ASBR-1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags:
+      - Internet
+    x: -280
+    y: -200
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: iosxe_config.txt
+        content: |-
+          # this is a shell script which will be sourced at boot
+          hostname Internet-Server
+          # configurable user account
+          USERNAME=c
+          PASSWORD=c
+          # no password for tc user by default
+          TC_PASSWORD=
+          ifconfig eth0 203.0.113.1 netmask 255.255.255.254
+          route add default gw 203.0.113.0
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: Internet-Server
+    node_definition: server
+    parameters: {}
+    ram: null
+    tags:
+      - Internet
+    x: 0
+    y: -200
+    interfaces:
+      - id: i0
+        label: eth0
+        mac_address: null
+        type: physical
+        slot: 0
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          *Nov 15 21:48:56.369: %SYS-5-CONFIG_I: Configured from console by console
+          CMST-PE-1#
+          Building configuration...
+
+          Current configuration : 1833 bytes
+          !
+          ! Last configuration change at 21:48:58 UTC Sat Nov 15 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CMST-PE-1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          ip vrf CUST-A
+           rd 7922:100
+           route-target export 7922:100
+           route-target import 7922:100
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 10.0.10.3 255.255.255.255
+           ip router isis
+          !
+          interface Ethernet0/0
+           ip vrf forwarding CUST-A
+           ip address 10.255.0.1 255.255.255.254
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           ip address 10.0.100.3 255.255.255.254
+           ip router isis
+           mpls ip
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1 vrf CUST-A
+           redistribute bgp 7922
+           network 10.255.0.0 0.0.0.1 area 0
+          !
+          router isis
+           net 49.0001.0100.0000.1003.00
+          !
+          router bgp 7922
+           bgp log-neighbor-changes
+           neighbor 10.0.10.1 remote-as 7922
+           neighbor 10.0.10.1 update-source Loopback0
+           neighbor 10.0.10.4 remote-as 7922
+           neighbor 10.0.10.4 update-source Loopback0
+           !
+           address-family ipv4
+            neighbor 10.0.10.1 activate
+            neighbor 10.0.10.4 activate
+           exit-address-family
+           !
+           address-family vpnv4
+            neighbor 10.0.10.1 activate
+            neighbor 10.0.10.1 send-community extended
+           exit-address-family
+           !
+           address-family ipv4 vrf CUST-A
+            redistribute ospf 1
+           exit-address-family
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n3
+    image_definition: null
+    label: CMST-PE-1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags:
+      - CMST ISP
+    x: -320
+    y: 120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1090 bytes
+          !
+          ! Last configuration change at 21:49:00 UTC Sat Nov 15 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CE1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Ethernet0/0
+           ip address 10.255.0.0 255.255.255.254
+          !
+          interface Ethernet0/1
+           ip address 10.10.90.1 255.255.255.0
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface Ethernet0/1
+           network 10.10.90.0 0.0.0.255 area 0
+           network 10.255.0.0 0.0.0.1 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n4
+    image_definition: null
+    label: CE1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags:
+      - CUSTOMER SITE 1
+    x: -40
+    y: 120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: iosxe_config.txt
+        content: |-
+          # this is a shell script which will be sourced at boot
+          hostname c1
+          # configurable user account
+          USERNAME=c
+          PASSWORD=c
+          # no password for tc user by default
+          TC_PASSWORD=
+          ifconfig eth0 10.10.90.2 netmask 255.255.255.0
+          route add default gw 10.10.90.1
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n5
+    image_definition: null
+    label: c1
+    node_definition: server
+    parameters: {}
+    ram: null
+    tags:
+      - CUSTOMER SITE 1
+    x: 240
+    y: 120
+    interfaces:
+      - id: i0
+        label: eth0
+        mac_address: null
+        type: physical
+        slot: 0
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1192 bytes
+          !
+          ! Last configuration change at 21:49:05 UTC Sat Nov 15 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CMST-P-1
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 10.0.10.2 255.255.255.255
+           ip router isis
+          !
+          interface Ethernet0/0
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/1
+           ip address 10.0.100.4 255.255.255.254
+           ip router isis
+           mpls ip
+          !
+          interface Ethernet0/2
+           ip address 10.0.100.2 255.255.255.254
+           ip router isis
+           mpls ip
+          !
+          interface Ethernet0/3
+           ip address 10.0.100.1 255.255.255.254
+           ip router isis
+           mpls ip
+          !
+          router isis
+           net 49.0001.0100.0001.0002.00
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n6
+    image_definition: null
+    label: CMST-P-1
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags:
+      - CMST ISP
+    x: -600
+    y: 120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1833 bytes
+          !
+          ! Last configuration change at 21:49:08 UTC Sat Nov 15 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CMST-PE-2
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          ip vrf CUST-A
+           rd 7922:100
+           route-target export 7922:100
+           route-target import 7922:100
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 10.0.10.1 255.255.255.255
+           ip router isis
+          !
+          interface Ethernet0/0
+           ip vrf forwarding CUST-A
+           ip address 10.255.0.3 255.255.255.254
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           ip address 10.0.100.0 255.255.255.254
+           ip router isis
+           mpls ip
+          !
+          router ospf 1 vrf CUST-A
+           redistribute bgp 7922
+           network 10.255.0.2 0.0.0.1 area 0
+          !
+          router isis
+           net 49.0001.0100.0001.0001.00
+          !
+          router bgp 7922
+           bgp log-neighbor-changes
+           neighbor 10.0.10.3 remote-as 7922
+           neighbor 10.0.10.3 update-source Loopback0
+           neighbor 10.0.10.4 remote-as 7922
+           neighbor 10.0.10.4 update-source Loopback0
+           !
+           address-family ipv4
+            neighbor 10.0.10.3 activate
+            neighbor 10.0.10.4 activate
+           exit-address-family
+           !
+           address-family vpnv4
+            neighbor 10.0.10.3 activate
+            neighbor 10.0.10.3 send-community extended
+           exit-address-family
+           !
+           address-family ipv4 vrf CUST-A
+            redistribute ospf 1
+           exit-address-family
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n7
+    image_definition: null
+    label: CMST-PE-2
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags:
+      - CMST ISP
+    x: -880
+    y: 120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1090 bytes
+          !
+          ! Last configuration change at 21:49:10 UTC Sat Nov 15 2025
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CE2
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Ethernet0/0
+           ip address 10.255.0.2 255.255.255.254
+          !
+          interface Ethernet0/1
+           ip address 10.10.80.1 255.255.255.0
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface Ethernet0/1
+           network 10.10.80.0 0.0.0.255 area 0
+           network 10.255.0.2 0.0.0.1 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n8
+    image_definition: null
+    label: CE2
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags:
+      - CUSTOMER SITE 2
+    x: -1160
+    y: 120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: iosxe_config.txt
+        content: |-
+          # this is a shell script which will be sourced at boot
+          hostname c2
+          # configurable user account
+          USERNAME=c
+          PASSWORD=c
+          # no password for tc user by default
+          TC_PASSWORD=
+          ifconfig eth0 10.10.80.2 netmask 255.255.255.0
+          route add default gw 10.10.80.1
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n9
+    image_definition: null
+    label: c2
+    node_definition: server
+    parameters: {}
+    ram: null
+    tags:
+      - CUSTOMER SITE 2
+    x: -1160
+    y: -160
+    interfaces:
+      - id: i0
+        label: eth0
+        mac_address: null
+        type: physical
+        slot: 0
+links:
+  - id: l0
+    n1: n4
+    n2: n3
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: iol-3-Ethernet0/0<->iol-2-Ethernet0/0
+  - id: l1
+    n1: n0
+    n2: n1
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: iol-0-Ethernet0/0<->iol-1-Ethernet0/0
+  - id: l2
+    n1: n1
+    n2: n2
+    i1: i2
+    i2: i0
+    conditioning: {}
+    label: iol-1-Ethernet0/1<->server-0-eth0
+  - id: l3
+    n1: n3
+    n2: n6
+    i1: i3
+    i2: i3
+    conditioning: {}
+    label: iol-2-Ethernet0/2<->iol-4-Ethernet0/2
+  - id: l4
+    n1: n7
+    n2: n6
+    i1: i4
+    i2: i4
+    conditioning: {}
+    label: iol-5-Ethernet0/3<->iol-4-Ethernet0/3
+  - id: l5
+    n1: n7
+    n2: n8
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: iol-5-Ethernet0/0<->iol-6-Ethernet0/0
+  - id: l6
+    n1: n8
+    n2: n9
+    i1: i2
+    i2: i0
+    conditioning: {}
+    label: iol-6-Ethernet0/1<->server-3-eth0
+  - id: l7
+    n1: n0
+    n2: n6
+    i1: i2
+    i2: i2
+    conditioning: {}
+    label: iol-0-Ethernet0/1<->iol-4-Ethernet0/1
+  - id: l8
+    n1: n5
+    n2: n4
+    i1: i0
+    i2: i2
+    conditioning: {}
+    label: c1-eth0<->CE1-Ethernet0/1
+lab:
+  description: ''
+  notes: ''
+  title: Internet Access for a Customer in IPVPN scenario
+  version: 0.3.0

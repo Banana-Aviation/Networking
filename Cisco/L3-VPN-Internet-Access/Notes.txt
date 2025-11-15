@@ -1,0 +1,5 @@
+How to give Internet access to IPVPN clients?
+In current topology AS701 (Verizon) is playing a role of the Internet.
+Should PEs have a default route to eBGP ASBR, and inject it into customer VRFs?
+What is the best most scalable way to give internet access to customer sites, that easy to maintain and debug later on?
+TODO: implement internet access, implement uRPF on ASBR
